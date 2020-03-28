@@ -289,3 +289,89 @@ footer{
 .cat-links a:hover{
 font-size:20px;
 }
+
+@media only screen and (max-width: 270px){
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  header{
+    display: flex;
+  align-items:center;
+    flex-direction: column;
+  }
+  .nav-links{
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px;
+  }
+  .python{
+    display: flex;
+    flex-direction: column;
+  }
+  .vide{
+
+    background-color: blue;
+
+  }
+  .vide video{
+    border-radius: 10px;
+
+    width: 100px;
+    background-color: blue;
+
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .cat{
+    display: block;
+    margin-left: 0px;
+  }
+  .second{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    width: 100%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+
+  }
+  .third{
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    width: 100%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+  .fourth{
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    width: 100%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+  .fifth{
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    width: 100%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+
+  }
+  image{
+    height: auto;
+  }
+
+}
